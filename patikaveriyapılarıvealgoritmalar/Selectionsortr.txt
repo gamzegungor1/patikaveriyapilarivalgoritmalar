@@ -1,0 +1,48 @@
+PROJE 1 :
+
+[22,27,16,2,18,6] ---> Insertion Sort 
+Aşamalar:
+
+* Dizideki en küçük elemanı 1. sıraya yerleştiriyoruz.
+* Diğer elemanı değiştirdiğimizin yerine koyuyoruz.
+
+* [2,27,16,22,18,6]
+
+* Daha sonra 2. en küçük elemanı 2.sıraya yerleştiriyoruz.
+
+* [2,6,16,22,18,27]
+* 3. en küçük eleman zaten olması gereken yerde olduğu için onda herhangi bir değişiklik yapmıyoruz.
+* 4.en küçük elemanı 4. sıraya yerleştiriyoruz.
+
+[2,6,16,18,22,27]
+
+* 5. ve 6. eleman sıralamaya uyuyor onlardada herhangi bir değişiklik yapmıyoruz.
+
+**********************************************************************
+
+BİG-O GÖSTERİMİ:
+
+-Big-O=(n^2)
+
+Time Complexity : Dizi sıralandıktan sonra 18 sayısı caselerden hangisinin kapsamına girer?
+
+1.Average:Average Case (Ortalama Durum): Tahmin ettiğiniz gibi sonuçları en kötü olan durum ile en iyi durum arasında çıkan durumdur    
+2.Worst:bu terim çalışmakta olan algoritmanın en kötü ihtimalle ne kadar başarılı olacağını incelemeye yarar.
+2.Best:Best case kodun çalışabileceği en ideal süredir
+
+18 ise Average Case e girer.
+
+
+
+
+*****************************************************************
+
+Verinin hafızada sıralı tutulması için geliştirilen sıralama algoritmalarından (sorting algorithms) 
+bir tanesidir. Basitçe her adımda dizideki en küçük sayının nerede olduğu bulunur. Bu sayı ile dizinin başındaki sayı yer değiştirilerek en küçük sayılar seçilerek başa atılmış olur.
+
+[7,3,5,8,2,9,4,15,6] dizisinin Selection Sort'a göre ilk 4 adımını yazınız.
+
+a.[2,3,5,8,7,9,4,15,6]
+b.[2,3,4,8,7,9,5,15,6]
+c.[2,3,4,5,7,9,8,15,6]
+d.[2,3,4,5,6,9,8,15,7]
